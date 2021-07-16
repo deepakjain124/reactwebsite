@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.qualification {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.degree h1 {
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: cornflowerblue;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+}
+
+.from {
+    text-transform: capitalize;
+    width: 300px;
+}
+
+.from h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.from p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+}
+
+@media(max-width:1024px) {
+    .qualification {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .degree h1 {
+        display: grid;
+        justify-content: left;
+    }
+    .from {
+        text-transform: capitalize;
+        width: 400px;
+    }
+}

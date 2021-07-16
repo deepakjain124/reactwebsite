@@ -1,0 +1,8 @@
+nav ul li {
+    color: blue;
+}
+
+nav li .navlink:hover {
+    text-decoration: none;
+    outline: none;
+}

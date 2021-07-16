@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin-top: 20px;
+}
+
+.form {
+    margin-left: 1px;
+    margin-top: 40px;
+}
+
+form label {
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+form input {
+    width: 500px;
+}
+
+form input:hover {
+    box-shadow: 2px 4px 2px grey
+}
+
+form input[type="message"] {
+    height: 100px;
+    outline: none;
+}
+
+form button {
+    margin-top: 20px;
+    border-radius: 50px;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid rgb(81, 81, 168);
+    transition: 0.5s all ease;
+}
+
+form button:hover {
+    background: rgb(81, 81, 168);
+}
+
+.social .fas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    margin-top: 10px;
+}
+
+.social .main {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 20px;
+    color: cyan;
+}
+
+.social span {
+    color: grey;
+}
+
+.icons {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.icons a {
+    text-decoration: none;
+    outline: none;
+    color: black !important;
+}
+
+.icons .fab {
+    margin-left: 15px;
+}
+
+@media(max-width:1024px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+        margin-top: 200px;
+        justify-content: center;
+        align-items: center;
+    }
+    form {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+}
